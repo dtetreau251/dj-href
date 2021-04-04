@@ -2,13 +2,10 @@ const colors = ["AntiqueWhite", "AliceBlue", "Aqua", "Aquamarine", "Azure", "Bei
 const color = document.querySelector(".color");
 
 function letsGetItNow() {  
-    const randomNumber = getRandomNumber(); // get random number between 0 - 3 
-    let i = 0;
-    while(i < 500) {
-        document.body.style.backgroundColor = colors[randomNumber];
-        color.textContent = colors[randomNumber];
-        i++;
-    }
+    const randomNumber = getRandomNumber();// get random number between 0 - 3 
+    document.body.style.backgroundColor = colors[randomNumber];
+    color.textContent = colors[randomNumber];
+    letsGetItNow();
 }
 
 function getRandomNumber() {
