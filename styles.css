@@ -1,5 +1,10 @@
 body {
     font-family: 'MuseoModerno', cursive;
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 15px;
 }
 
 .container {
