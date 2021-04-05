@@ -4,7 +4,7 @@ const color = document.querySelector(".color");
 
 setInterval(() => {
         const randomNumber = getRandomNumber();
-        document.container.style.backgroundColor = colors[randomNumber];
+        document.body.style.backgroundColor = colors[randomNumber];
         color.textContent = colors[randomNumber];
 }, 3000);
 
