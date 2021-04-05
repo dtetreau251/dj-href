@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+.contents{
+    background-color: white;
+}
+
 .color-change {
     background-color: black;
     border: none;
@@ -21,5 +25,10 @@ body {
 }
 
 img {
-    width: 25%;
+    width: 350px;
+}
+
+iframe {
+    width: 350px;
+    height: 175px;
 }
