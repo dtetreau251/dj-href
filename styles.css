@@ -5,6 +5,8 @@ body {
 .container {
     display: block;
     text-align: center;
+    width: 300px;
+    justify-content: center;
 }
 
 .color-change {
