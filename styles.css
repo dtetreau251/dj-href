@@ -6,29 +6,16 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 350px;
+    width: 325px;
     background-color: black;
     color: white;
-}
-
-.color-change {
-    background-color: black;
-    border: none;
-    border-radius: 90%;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
 }
 
 img {
-    width: 350px;
+    width: 325px;
 }
 
 iframe {
-    width: 350px;
+    width: 325px;
     height: 150px;
 }
